@@ -12,7 +12,7 @@
     }
 
     function ExperSend_admin_menu_pages(){
-        add_menu_page('ExperSend Desk SMS', 'ExperSend Desk SMS', 'manage_options', 'expersend-sms', 'expersend_admin_page', 'dashicons-testimonial');
+        add_menu_page('ExperSend SMS', 'ExperSend SMS', 'manage_options', 'expersend-sms', 'expersend_admin_page', 'dashicons-testimonial');
     }
 
     add_action('admin_menu', 'ExperSend_admin_menu_pages');
@@ -46,7 +46,7 @@
 ?>
         <div class="wrap">
             <img src="https://res.cloudinary.com/dw4o2gz3v/image/upload/v1713290935/Expersend/original-cropped_xqhd8o.png" style="width: 250px;">
-            <h2>ExperSend Desk SMS</h2>
+            <h2>ExperSend SMS</h2>
 <?php
             if ( !in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 ?>
